@@ -1,0 +1,59 @@
+     .page-break {
+            page-break-after: always;
+        }
+        .main {
+            width: 346px;
+            height: 214px;
+            margin: auto;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .background-image {
+            width: 98%;
+            height: 99%;
+            /* border-radius: 6px; */
+            /* position: relative; */
+            border: 1px solid gray;
+            /* position: absolute; */
+
+            background-size:     cover;                      /* <------ */
+            background-position: center center;   
+        }
+        .main-data {
+            width: 345px;
+            height: 212px;
+            /* position: absolute; */
+        }
+        .right-div,
+        .left-div {
+            position: absolute;
+            float: right;
+            width: 172px;
+            height: 212px;
+        }
+        .logo {
+            position: absolute;
+            margin: 25px 0 0 18px;
+        }
+        .info {
+            /* position: absolute; */
+            /* padding: 0 12px; */
+            height: 120px;
+            margin-top: 70px;
+            text-align: right;
+        }
+        .capitalize {
+            text-transform: capitalize;
+        }
+        .register-hr {
+            border-bottom: 1px solid black;
+            width: 80px;
+        }
+        .back-div {
+            padding: 10px;
+            position: absolute;
+            height: 194px;
+            margin-left: 120px;
+            width: 208px;
+            /* display: */
+        }
